@@ -10,7 +10,7 @@
 - 看到这的都是帅哥美女
 - 作者：刘远浩
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/DBCHN/docsify_web/)
 [首页](README.md)
 
 
