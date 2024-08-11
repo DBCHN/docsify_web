@@ -1,6 +1,6 @@
 <!-- _navbar.md导航栏 -->
 * [首页](README.md)
-  * [渣渣辉](guide.md)
+  * [随便写写](guide.md)
 
 * [二级页面](/second/)
   * [二级页面](/second/)

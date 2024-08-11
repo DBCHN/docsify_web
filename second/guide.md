@@ -2,7 +2,7 @@
 
 * [中文](second/)
 
-* [Guide](guide.md "The greatest guide in the world")
+* [随便写写](guide.md "The greatest guide in the world")
 
 # Headline
 
