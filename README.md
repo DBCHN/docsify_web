@@ -4,13 +4,13 @@
 
 > An awesome project.
 
-* [渣渣辉](guide.md "The greatest guide in the world")
+* [随便写写](guide.md "The greatest guide in the world")
   
 * [二级页面:cn:](second/)
   
 * [指南](second/guide)
   
-* [:us:, :uk:](/)
+* [封面:us:,:uk:](/)
 
 
 # 开始
