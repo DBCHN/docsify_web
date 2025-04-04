@@ -3,10 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <!-- <title>Document</title> -->
+  <title>欢迎来到BRICK的个人网站</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <meta http-equiv="Cache-Control" content="max-age=0" />
+  <!-- 设置不缓存 -->
+  <meta http-equiv="Pragma" content="no-cache" />
+  <!-- HTTP1.1规范中新定义的头信息Cache-Control可以通知浏览器不缓存任何页面。 -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <!--HTTP头信息Expires告诉代理服务器它的缓存页面何时将过期。-->
+  <meta http-equiv="Expires" content="0" />
+
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 
@@ -18,7 +28,7 @@
   
   <!-- 导航栏 -->
   <nav>
-    <a href="#README.md">首页</a>
+    <a href="#HOME.md">首页</a>
     <a href="#/second/">二级页面</a>
   </nav>
 
@@ -49,9 +59,12 @@
        // '/second/': '_coverpage.md',
       //} 
 
-      //只在主页访问时加载封面
+      //加载封面时使其不同时加载主页，把./README.md文件独立出来
       onlyCover: false,
+      //指定主页文件,默认为README.md
+      homepage: 'HOME.md',
 
+      //设置生成目录的最大层级，开启自定义侧边栏生成目录
       subMaxLevel: 2,
 
       // 避免不必要的回退过程

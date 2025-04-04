@@ -8,10 +8,12 @@
 
 - 瞎写的，别当真
 - 看到这的都是帅哥美女
-- 作者：刘远浩
+- 作者：刘远浩:cn:
+  
+<!--[Gitee](https://gitee.com/lyhdb/liuyuanhao2024/)-->
 
-[GitHub](https://github.com/DBCHN/docsify_web/)
-[首页](README.md)
+[Github](https://github.com/DBCHN/docsify_web.git/)
+[进入首页](HOME.md)
 
 
 
